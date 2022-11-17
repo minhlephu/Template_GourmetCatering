@@ -1,0 +1,273 @@
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+
+}
+
+.top {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #000 !important;
+    background-color: #fff !important;
+    padding: 8px 16px !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    line-height: 32px;
+    letter-spacing: 4px;
+    height: 55px;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.header-right {
+    display: flex;
+
+
+}
+
+.header li a {
+    text-decoration: none;
+    padding: 16px;
+    font-size: 20px;
+    color: #000;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+
+.img-banner {
+    width: calc(100% - 304px);
+}
+
+.Banner-h1 {
+    position: absolute;
+    bottom: 18px;
+    left: 180px;
+    font-size: 36px;
+    font-family: Playfair Display;
+    letter-spacing: 5px;
+    line-height: 54px;
+    margin: 10px 0px;
+    color: #757575;
+}
+
+.wrapAbout {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+
+.AboutCatering {
+    display: flex;
+    width: 1100px;
+    height: 779px;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #eeeeee; */
+}
+
+.About-left {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 550px;
+    height: 651px;
+
+}
+
+.img-About {
+    width: 502px;
+    height: 627px;
+}
+
+.About-right {
+
+    justify-content: center;
+    width: 550px;
+    height: 536px;
+    margin-bottom: 60px;
+}
+
+.About-h1 {
+    font-size: 36px;
+    font-family: Playfair Display;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px 0;
+    height: 55px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.About-h5 {
+    font-size: 18px;
+    font-family: Playfair Display;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 27px;
+}
+
+.About-p1 {
+    width: 502px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 30px;
+    margin: 18px 24px;
+}
+
+.About-span {
+    background-color: #f1f1f1;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+.About-p2 {
+    width: 502px;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 18px 24px;
+}
+
+.mm {
+    border-bottom: 1px solid #eeeeee;
+    line-height: 22.5px;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.ourMenu {
+    flex-direction: row-reverse
+}
+
+.OurMenu-h5 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    margin: 14px 0;
+}
+
+.OurMenu-p {
+    color: #757575;
+    font-size: 14px;
+
+}
+
+.ourmenu-item {
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.wrapContact {
+    display: flex;
+    width: 1100px;
+    height: 779px;
+    justify-content: center;
+}
+
+.Contact {
+    width: calc(100% - 32px);
+    margin-top: 40px;
+}
+
+.contact-h1 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    letter-spacing: 5px;
+    line-height: 54px;
+    margin: 40px 0;
+
+}
+
+.contact-content1 {
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+.contact-b {
+    color: #607d8b;
+    font-size: 18px;
+    list-style: 27px;
+    margin: 20px 0;
+
+}
+
+.contact-content2 {
+    font-size: 15px;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    background-color: #ffffff;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 16px 8px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 10px;
+
+}
+
+.contact-input:focus {
+    border: 1px solid #cccccc;
+}
+
+.contact-btn {
+    align-items: flex-start;
+    background-color: #eeeeee;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 8px 16px;
+    border: none;
+    margin-top: 24px;
+}
+
+.contact-btn:hover {
+    background-color: #cccccc;
+}
+
+.footer {
+    display: flex;
+    height: 117px;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.footer a {
+    color: #000;
+
+}
+
+.footer a:hover {
+    color: #4caf50;
+}
